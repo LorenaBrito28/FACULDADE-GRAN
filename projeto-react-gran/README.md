@@ -4,8 +4,10 @@ Projeto Disciplina Projeto Integrador
 
 # Projeto React - Gestão de Produtos e Fornecedores
 
+Projeto da disciplina Projeto Integrador – Faculdade GRAN
+
 ## Descrição
-Projeto frontend desenvolvido em React para gerenciamento de:
+Aplicação frontend desenvolvida em React para gerenciamento de:
 - Produtos
 - Fornecedores
 - Associação Produto/Fornecedor
@@ -14,8 +16,23 @@ Projeto frontend desenvolvido em React para gerenciamento de:
 - React
 - React Router DOM
 - JavaScript
+- HTML5
+- CSS3
+
+## Funcionalidades
+- Cadastro e visualização de produtos
+- Cadastro e visualização de fornecedores
+- Associação entre produtos e fornecedores
 
 ## Como executar o projeto
-```bash
-npm install
-npm start
+1. Clone o repositório
+2. Acesse a pasta do projeto:
+   cd projeto-react-gran
+3. Instale as dependências:
+   npm install
+4. Execute a aplicação:
+   npm start
+
+A aplicação estará disponível em:
+http://localhost:3000
+
