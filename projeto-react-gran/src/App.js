@@ -4,6 +4,19 @@ import Produto from "./pages/Produto";
 import Fornecedor from "./pages/Fornecedor";
 import Associacao from "./pages/Associacao";
 
+
+const apiSimulada = {
+  // 1. Endpoint de Estoque Baixo: Filtra produtos com menos de 5 unidades
+  getEstoqueBaixo: (listaProdutos) => {
+    return listaProdutos.filter(p => p.quantidade < 5);
+  },
+  
+  // 2. Endpoint de Categoria: Filtra produtos por tipo
+  getPorCategoria: (listaProdutos, categoria) => {
+    return listaProdutos.filter(p => p.categoria === categoria);
+  }
+};
+
 function App() {
   return (
     <BrowserRouter>
